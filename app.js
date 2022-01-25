@@ -13,6 +13,6 @@ spacechar.innerText = " ";
 async function getNextLine() {
   const FetchedLine = await getText();
   console.log(FetchedLine);
-  DisplayText.innerHTML = String(FetchedLine);
+  DisplayText.innerHTML =FetchedLine;
 }
 getNextLine();
